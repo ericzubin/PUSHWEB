@@ -221,8 +221,7 @@ public class MainActivity extends Activity {
 	}
 	public void IngresarMensajeriaPush()
 	{
-		UsrCel=preferencias.getString("UsrCel",editCel.getText().toString());
-		UsrName=preferencias.getString("UsrName",editName.getText().toString());
+
 		ParseUser.logInInBackground(UsrName+"&"+UsrCel,UsrName,new LogInCallback() {
 			@Override
 
