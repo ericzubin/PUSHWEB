@@ -80,7 +80,7 @@ class UpdateProducto extends AsyncTask<String, String, String> {
 	
 
 	// url to create new product
-	private static String url_update_product="http://embeddedlapps.com/subastas/update_product.php";
+	private static String url_update_product="http://dtech20.com/subastas/update_product.php";
 	//private static String url_fotos_piezas="http://embeddedlapps.com/subastas/up.php";
 
 	// JSON Node names

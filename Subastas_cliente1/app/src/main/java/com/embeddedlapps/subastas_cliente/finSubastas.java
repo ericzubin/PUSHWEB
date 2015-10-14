@@ -56,7 +56,7 @@ public class finSubastas extends ActionBarActivity {
 
 	// url to create new product
 	
-	private static final String url_detalle = "http://embeddedlapps.com/subastas/get_product_details.php";
+	private static final String url_detalle = "http://dtech20.com/subastas/get_product_details.php";
 //	private static final String url_detalle = "http://embeddedlapps.com/subastas/get_all_products.php";
 	
 
@@ -316,13 +316,13 @@ public class finSubastas extends ActionBarActivity {
 							}
 							Log.d("nombre",product.getString("comprado"));				
 							
-							if(imagen.equals("No hay imagen")) imageUrl = "http://embeddedlapps.com/subastas/fotos/sin_imagen.jpg";
+							if(imagen.equals("No hay imagen")) imageUrl = "http://dtech20.com/subastas/fotos/sin_imagen.jpg";
 							else imageUrl = "http://embeddedlapps.com/subastas/"+imagen;
 							//imagen del vendedor
 							
 							
-							if(imagenV.equals("No hay imagen") || imagenV.equals("null")) imageUrl_v = "http://embeddedlapps.com/subastas/fotos/sin_imagen.jpg";
-							else imageUrl_v = "http://embeddedlapps.com/subastas/"+imagenV;
+							if(imagenV.equals("No hay imagen") || imagenV.equals("null")) imageUrl_v = "http://dtech20.com/subastas/fotos/sin_imagen.jpg";
+							else imageUrl_v = "http://dtech20.com/subastas/"+imagenV;
 							//String imagenProv=product.getString("imagenProv");
 							//if(imagenProv.equals("No hay imagen")) imageUrl = "http://embeddedlapps.com/subastas/fotos/sin_imagen.jpg";
 							//else imageUrl = "http://embeddedlapps.com/subastas/"+imagenProv;

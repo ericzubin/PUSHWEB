@@ -72,7 +72,13 @@ public class MainActivity extends Activity {
 			
 			Log.d("Paso1", "onCreateView");
 			iraMisSubastas();
-			IngresarMensajeriaPush();
+			try
+			{
+				IngresarMensajeriaPush();
+			}catch (Exception e)
+			{
+				Log.d("Fallo a ",e.getMessage());
+			}
 			}
 		Log.d("Paso8", "onCreateView");
 	}

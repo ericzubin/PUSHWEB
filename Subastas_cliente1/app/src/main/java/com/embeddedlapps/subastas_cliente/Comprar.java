@@ -98,8 +98,8 @@ public class Comprar extends ActionBarActivity {
 	private ProgressDialog pDialog;
 	JSONParser jParser = new JSONParser();
 	// url to create new product
-	private static String url_all_products = "http://embeddedlapps.com/subastas/get_all_products.php";
-	private static String url_datos_clientes = "http://embeddedlapps.com/subastas/get_datos_clientes.php";
+	private static String url_all_products = "http://dtech20.com/get_all_products.php";
+	private static String url_datos_clientes = "http://dtech20.com/subastas/get_datos_clientes.php";
 	
 	// JSON Node names
 	private static final String TAG_SUCCESS = "success";
@@ -152,8 +152,8 @@ public class Comprar extends ActionBarActivity {
 	
 	JSONParser jsonParser = new JSONParser();
 	// url to create new product
-	private static String url_compra_product = "http://embeddedlapps.com/subastas/compra_product.php";
-	private static String url_recibos_pago="http://embeddedlapps.com/subastas/up.php";
+	private static String url_compra_product = "http://dtech20.com/subastas/compra_product.php";
+	private static String url_recibos_pago="http://dtech20.com/subastas/up.php";
 	private static String carpeta="recibos";
 	private int reinicio=0;
 	

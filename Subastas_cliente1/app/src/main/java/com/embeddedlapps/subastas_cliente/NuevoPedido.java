@@ -64,8 +64,8 @@ public class NuevoPedido extends ActionBarActivity {
 	JSONParser jsonParser = new JSONParser();
 
 	// url to create new product
-	private static String url_create_product = "http://embeddedlapps.com/subastas/create_product.php";
-	private static String url_fotos_piezas="http://embeddedlapps.com/subastas/up.php";
+	private static String url_create_product = "http://dtech20.com/subastas/create_product.php";
+	private static String url_fotos_piezas="http://dtech20.com/subastas/up.php";
 	private static String carpeta="fotos";
 
 	// JSON Node names

@@ -54,7 +54,7 @@ public class MisSubastas extends ActionBarActivity  {
 	private ProgressDialog pDialog;
 	JSONParser jParser = new JSONParser();
 	// url to create new product												
-	private static String url_all_products = "http://embeddedlapps.com/subastas/get_all_products.php";
+	private static String url_all_products = "http://dtech20.com/subastas/get_all_products.php";
 	// JSON Node names
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_PRODUCTS = "products";
